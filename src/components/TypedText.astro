@@ -1,0 +1,20 @@
+---
+// Importa TypewriterJS
+import Typewriter from 'typewriter-effect';
+---
+
+<div id="typewriter-output"></div>
+
+
+  <script type="module">
+    // Crea la instancia de Typewriter en el navegador
+    new Typewriter('#typewriter-output', {
+      strings: ['Hola, soy Ever.', 'Bienvenido a mi portafolio.', 'Aquí encontrarás mis proyectos.'],
+      autoStart: true,   // Inicia la animación automáticamente
+      loop: true,        // Bucle infinito
+      deleteSpeed: 50,   // Velocidad de borrado
+      delay: 75,         // Velocidad de escritura
+    });
+  </script>
+
+
