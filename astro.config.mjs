@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  output: 'dist',
-  base: '/LaksPortfolio/', // Reemplaza con el nombre de tu repositorio
+  output: 'static', // Asegúrate de que el valor sea 'static' o 'server'
+  base: '/LaksPortfolio', // Ajusta según tu repositorio
+  outDir: 'dist', // Directorio de salida para los archivos generados
 });
